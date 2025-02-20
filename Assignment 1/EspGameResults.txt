@@ -1,0 +1,6 @@
+Game Over
+You guessed 2 out of 3 colors correctly.
+Due Date: 02/17
+Username: Paolo Nessim
+User Description: I am a CMSC student with a major in Computer Eng
+Date: 02/17
