@@ -1,6 +1,6 @@
 /*
  * Class: CMSC203
- * Instructor:
+ * Instructor: Dr. Grinberg
  * Description: ESPGame program tests the user's ability to guess randomly selected colors from a file. Users choose a difficulty level (16, 10, or 5 colors), play three rounds, and track correct guesses.
  * Due: 02/08/2025 
  * Platform/compiler: IntelliJ / vscode-javac
