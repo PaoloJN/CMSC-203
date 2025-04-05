@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Deep Copy Memory Map</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      /* background-color: #1e1e1e; */
+      color: white;
+      display: flex;
+      gap: 30px;
+      padding: 20px;
+    }
+    .memory-section {
+      background-color: white;
+      color: black;
+      padding: 20px;
+      border-radius: 10px;
+      width: 450px;
+    }
+    .title {
+      font-weight: bold;
+      margin-bottom: 10px;
+      text-align: center;
+      font-size: 18px;
+    }
+    .box {
+      border: 1px solid black;
+      margin-bottom: 15px;
+      padding: 10px;
+      border-radius: 6px;
+    }
+    .array {
+      display: flex;
+      flex-direction: column;
+      gap: 6px;
+      margin-top: 5px;
+    }
+    .cell {
+      background-color: #f0f0f0;
+      border: 1px solid black;
+      padding: 6px;
+    }
+  </style>
+</head>
+<body>
+  <div class="memory-section">
+    <div class="title">Stack</div>
+    <div class="box">zoo → [ref to heap array A]</div>
+    <div class="box">copy → [ref to heap array B]</div>
+  </div>
+
+  <div class="memory-section">
+    <div class="title">Heap</div>
+
+    <div class="box">
+      <strong>Array A (zoo):</strong>
+      <div class="array">
+        <div class="cell">zoo[0] → tiger1</div>
+        <div class="cell">zoo[1] → elephant2</div>
+        <div class="cell">zoo[2] → giraffe3</div>
+        <div class="cell">zoo[3] → monkey4</div>
+        <div class="cell">zoo[4] → ape5</div>
+      </div>
+    </div>
+
+    <div class="box">
+      <strong>Array B (copy):</strong>
+      <div class="array">
+        <div class="cell">copy[0] → tiger1Copy</div>
+        <div class="cell">copy[1] → elephant2Copy</div>
+        <div class="cell">copy[2] → giraffe3Copy</div>
+        <div class="cell">copy[3] → monkey4Copy</div>
+        <div class="cell">copy[4] → ape5Copy</div>
+      </div>
+    </div>
+
+    <div class="box">
+      <strong>Animal Objects (Originals & Copies):</strong>
+      <div class="array">
+        <div class="cell">tiger1</div>
+        <div class="cell">elephant2</div>
+        <div class="cell">giraffe3</div>
+        <div class="cell">monkey4</div>
+        <div class="cell">ape5</div>
+        <hr>
+        <div class="cell">tiger1Copy</div>
+        <div class="cell">elephant2Copy</div>
+        <div class="cell">giraffe3Copy</div>
+        <div class="cell">monkey4Copy</div>
+        <div class="cell">ape5Copy</div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
