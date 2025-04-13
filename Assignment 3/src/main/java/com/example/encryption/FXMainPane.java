@@ -1,3 +1,15 @@
+/*
+ * Class: CMSC203
+ * Instructor: Dr. Grinberg
+ * Description: Java program to encrypt and decrypt a phrase using two similar approaches, each insecure by modern standards.  
+ * Due: 03/08/2025 
+ * Platform/compiler: IntelliJ / vscode-javac
+ * I pledge that I have completed the programming assignment
+ * independently. I have not copied the code from a student or   * any source. I have not given my code to any student.
+ * Print your Name here: Paolo Nessim
+ */
+ 
+
 package com.example.encryption;
 
 import javafx.application.Platform;
@@ -14,6 +26,7 @@ import javafx.scene.control.Tooltip;
 import javafx.scene.layout.BorderPane;
 import javafx.scene.layout.HBox;
 import javafx.scene.layout.VBox;
+
 
 /**
  * The class creates an object of FXMainPane used in FXDriver
