@@ -1,17 +1,17 @@
-# CMSC203 - GitHub Repository
+# CMSC203 - Projects & Labs
 
-This repository contains my coursework and programming assignments for **CMSC203**. It serves as a version-controlled space for submitting and tracking my projects throughout the course.
+This repository contains all the coursework and programming assignments from CMSC203, a course focused on the basics of programming and software development. It covers things like control flow, functions, basic object-oriented concepts, and more.
 
-## 📂 Contents
+## What's Inside?
 
--   **Lab Assignments** – GitHub setup, introductory exercises
--   **Programming Projects** – Course-related coding assignments
--   **Other Materials** – Any additional files or resources
+-   **Labs (1-6)**: Hands-on exercises covering Java programming concepts
+-   **Assignments (1-6)**: More complex programming projects that build on the lab concepts
+-   **Extras**: Any other files or notes I used along the way
 
-## 📌 Purpose
+## About the Course
 
-This repository is used to store and manage my coursework, making it easier to track progress and share my projects with my professor.
+CMSC203 is all about the basics of programming things such as if/else logic, data types, functions, and mostly object-oriented programming. Most of the learning happens through hands-on coding, with a mix of labs and projects.
 
-## 🚀 How to View My Work
+## Explore the Code
 
-All projects and assignments will be uploaded here as I complete them. My professor can browse the repository to review submissions.
+Each project and lab is in its own folder, with comments and structure that reflect what we were learning at the time. This repo gives a glimpse into how the course progressed and the topics we covered throughout the term.
